@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h4>Eco - freindly Lifestyle</h4>
+        </div>
+        <div class="inimg">
+            <img src="file.jpg" usemap="#image-map">
+            <map name="image-map">
+                <area target="_blank" alt="Eco-home" title="Eco-home" href="https://www.ecohome.net/" coords="277,134,516,230" shape="rect">
+                <area target="_blank" alt="Eco-Bike" title="Eco-Bike" href="https://ecobikecompany.com/collections/electric-bikes/green" coords="264,333,60" shape="circle">
+                <area target="_blank" alt="Solar-energy" title="Solar-energy" href="https://waaree.com/blog/green-living-with-solar-tips-for-an-eco-friendly-lifestyle/#:~:text=Benefits%20of%20Solar%20Energy,-Solar%20energy%20provides&text=Solar%20offsets%20the%20need%20for,fuels%2C%20reducing%20your%20environmental%20footprint.&text=With%20rooftop%20solar%20panels%20or,you%20energy%20independence%20and%20security." coords="315,87,441,117,464,93,339,69,421,76,433,66,465,69,675,98,655,123,543,101,461,80,327,73" shape="poly">
+                <area target="_blank" alt="Solar-energy" title="Solar-energy" href="https://www.energy.gov/eere/solar/how-does-solar-work#:~:text=When%20the%20sun%20shines%20onto,cell%2C%20causing%20electricity%20to%20flow." coords="142,115,161,147,222,131,206,99,159,91,179,73,106,55,65,79,108,91,158,92,208,103,5,111,-1,144,28,158,60,131,6,111,205,102,208,103" shape="poly">
+            </map>
+            <p style="color:#008080;  background-color: white; padding:15px;">Image mapping allows specific areas of an image to be interactive, linking to different elements. In this example, a circle maps to an eco-friendly bike, a rectangle links to an eco home, and a polygon connects to solar panels. Each shape represents an eco-friendly concept, enhancing navigation through visuals.</p>
+        </div>
+    </div>
+</body>
+</html>
