@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Lifestyle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to top left, rgb(149, 255, 149), rgb(255, 249, 190), rgb(142, 212, 229));
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .navbar {
+            background-color: #008080;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white;
+        }
+        .btn-custom {
+            background-color: #008080;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: rgb(0, 119, 119);
+        }
+        .card-title {
+            color: #008080;
+        }
+        .carousel-inner img {
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Eco-Friendly Lifestyle</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="ecoCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="eco1.png" class="d-block w-100" alt="Recycling">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Recycling Practices</h5>
+                <p>Embrace the 3Rs - Reduce, Reuse, Recycle!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="eco2.jpg" class="d-block w-100" alt="Eco Home">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Eco-Friendly Homes</h5>
+                <p>Design your home to be energy-efficient and sustainable.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="eco3.jpg" class="d-block w-100" alt="Solar Energy">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Solar Energy</h5>
+                <p>Utilize the power of the sun for a greener future.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#ecoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ecoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
+
+<section id="about" class="py-5">
+    <div class="container text-center">
+        <h2 class="text-success">Learn More About Eco-Friendly Living</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="recycling.jpg" class="card-img-top" alt="Recycling">
+                    <div class="card-body">
+                        <h5 class="card-title">Recycling</h5>
+                        <p class="card-text">Discover ways to recycle effectively and reduce waste.</p>
+                        <a href="#" class="btn btn-custom">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="solar.jpg" class="card-img-top" alt="Solar Energy">
+                    <div class="card-body">
+                        <h5 class="card-title">Solar Energy</h5>
+                        <p class="card-text">Switch to solar energy and reduce your carbon footprint.</p>
+                        <a href="#" class="btn btn-custom">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Bike.jpg" class="card-img-top" alt="Eco-Friendly Transportation">
+                    <div class="card-body">
+                        <h5 class="card-title">Eco-Friendly Transportation</h5>
+                        <p class="card-text">Adopt green modes of transportation like cycling or EVs.</p>
+                        <a href="#" class="btn btn-custom">Find Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-success">Get in Touch</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-custom">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Eco-Friendly Lifestyle | Designed with Bootstrap</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
